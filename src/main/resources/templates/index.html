@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +13,10 @@
 </header>
 <nav>
     <ul>
-        <li><a href="">Diana</a></li>
-        <li><a href="valeriia.html">Valeriia</a></li>
-        <li><a href="maksym.html">Maksym</a></li>
-        <li><a href="Yurii.html">Yurii</a></li>
+        <li><a th:href="@{/}">Diana</a></li>
+        <li><a th:href="@{/valeriia}">Valeriia</a></li>
+        <li><a th:href="@{/maksym}">Maksym</a></li>
+        <li><a th:href="@{/yurii}">Yurii</a></li>
     </ul>
 </nav>
 <main>

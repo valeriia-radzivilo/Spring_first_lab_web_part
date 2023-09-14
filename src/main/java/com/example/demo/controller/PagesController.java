@@ -2,19 +2,20 @@ package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class PagesController {
 
-    @GetMapping("/valeriia")
+    @RequestMapping("/valeriia")
     public String valeriia() {
         return "valeriia";
     }
-    @GetMapping("/maksym")
+    @RequestMapping("/maksym")
     public String maksym() {
         return "maksym";
     }
-    @GetMapping("/yurii")
+    @RequestMapping("/yurii")
     public String yurii() {
         return "yurii";
     }
